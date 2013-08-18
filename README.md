@@ -43,12 +43,12 @@ There are no unit test...  If you would like to contribute some, feel free (hope
 
 
 Setting Up the Dev OS (Win32)
-=============================
+-----------------------------
 So install virtual box on your computer, and install windows 32 so it can run concurrently with your current OS.  You can usually find a backup windows XP installation disk at thepiratebay if you meet the licensing requirements.  
 
 
 Setting Up MinGW32 on Windows XP
-================================
+--------------------------------
 Get to http://www.mingw.org and click the "Download Installer" button (it's quite hidden at the moment, in the upper right corner with out any color to attract attention).  
 
 Install the app, and make sure you check off the C and C++ compilers as well as the MinGW development tool options when you are prompeted by the installer.  (check the report in documentation/ for screen shots).  
@@ -57,7 +57,7 @@ Then add 'C:\MinGW\bin' to your system path so you can type `mingw32-make` at th
 
 
 Install/ Drag & Drop Dependencies
-=================================
+---------------------------------
 
 Once MinGW32 is installed on your system (probably to 'C:\MinGW') you get to drop in some dependencies into it's include and lib folders (CURL is the only dependencie, it's used for DLing files).  For emergencies, we've included the curl zip files which contain the includes and libs needed to compile this project.  
 It's recomended that you download CURL without SSL from http://curl.haxx.se/latest.cgi?curl=win32-devel for win32.  
