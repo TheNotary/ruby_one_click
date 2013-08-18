@@ -42,12 +42,12 @@ I told you it's written in C++, but it was done very, very well by a student nam
 There are no unit test...  If you would like to contribute some, feel free (hopefully they will fit right into the makefile?).  Otherwise, we're just being careful with what we code.  
 
 
-Setting Up the Dev OS (Win32)
+1)  Setting Up the Dev OS (Win32)
 -----------------------------
 So install virtual box on your computer, and install windows 32 so it can run concurrently with your current OS.  You can usually find a backup windows XP installation disk at thepiratebay if you meet the licensing requirements.  
 
 
-Setting Up MinGW32 on Windows XP
+2)  Setting Up MinGW32 on Windows XP
 --------------------------------
 Get to http://www.mingw.org and click the "Download Installer" button (it's quite hidden at the moment, in the upper right corner with out any color to attract attention).  
 
@@ -56,7 +56,7 @@ Install the app, and make sure you check off the C and C++ compilers as well as 
 Then add 'C:\MinGW\bin' to your system path so you can type `mingw32-make` at the command prompt without needing to specify it's absolute path (see documentation if you don't recall how to do that exactly).  
 
 
-Install/ Drag & Drop Dependencies
+3)  Install/ Drag & Drop Dependencies
 ---------------------------------
 
 Once MinGW32 is installed on your system (probably to 'C:\MinGW') you get to drop in some dependencies into it's include and lib folders (CURL is the only dependencie, it's used for DLing files).  For emergencies, we've included the curl zip files which contain the includes and libs needed to compile this project.  
